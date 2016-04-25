@@ -1,0 +1,36 @@
+@font-face {
+   font-family: Ganapati; 
+   src: url(../font/Ganapati.ttf) format('truetype');
+}
+
+@font-face{
+   font-family: GanapatiBold; 
+   src: url(../font/Ganapati.ttf) format('truetype');
+   font-weight: bold;
+}
+
+.vinyaasalipi {
+    font-family: Ganapati;
+    font-size: large;
+    text-align: justify;   
+    line-height:1.8 
+}
+
+.viniyoga {
+    font-style: normal;
+}
+
+.purvanga {
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+.sheershike {
+    font-family:GanapatiBold;
+    text-align: center
+}
+
+.ghatta {
+    font-family:GanapatiBold;
+    text-align: justify
+}

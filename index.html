@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="stylesheet" href="styles/vinyaasa.css">
+    <title class="sheershike">ಋಗ್ವೇದ ಸ೦ಧ್ಯಾವ೦ದನ(ಆಶ್ವಲಾಯನ ಸೂತ್ರ)</title>
+    <link rel="stylesheet" href="lib/jquery.mobile.css" />
+    <script src="lib/jquery.js"></script>
+    <script src="lib/jquery.mobile.js"></script>
+    <script type="text/javascript">
+        function loadContentFrom(fileName) {
+            $.mobile.changePage('content/' + fileName + '.html');
+        }
+
+    </script>
+</head>
+
+<body>
+
+    <div data-role="page" id="home">
+        <header data-role="header">
+            <h1 class="sheershike">ಋಗ್ವೇದ ಸ೦ಧ್ಯಾವ೦ದನ(ಆಶ್ವಲಾಯನ ಸೂತ್ರ)</h1>
+        </header>
+
+        <article data-role="content">
+            <ul data-role="listview">
+                <li>
+                    <a href="#" onclick="loadContentFrom('PratahSandhya');return false;">
+                        <img src="appimages/sandhya.png" alt="" />
+                        <h1 class="ghatta">ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ</h1>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="loadContentFrom('PratahSamidhaDaana');return false;" class="sheershike">
+                        <img src="appimages/agnikarya.png" alt="" />
+                        <h1 class="ghatta">ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ</h1>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="loadContentFrom('MadhyahnikaSandhya');return false;" class="sheershike">
+                        <img src="appimages/sandhya.png" alt="" />
+                        <h1 class="ghatta">ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾ</h1>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="loadContentFrom('SaayamSandhya');return false;" class="sheershike">
+                        <img src="appimages/sandhya.png" alt="" />
+                        <h1 class="ghatta">ಸಾಯ೦ಸ೦ಧ್ಯಾ</h1>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="loadContentFrom('SaayamSamidhaDaana');return false;" class="sheershike">
+                        <img src="appimages/agnikarya.png" alt="" />
+                        <h1 class="ghatta">ಸಾಯ೦ಸಮಿಧಾದಾನ</h1>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="loadContentFrom('Yajnopaveeta');return false;" class="sheershike">
+                        <img src="appimages/sandhya.png" alt="" />
+                        <h1 class="ghatta">ಯಜ್ಞೋಪವೀತ</h1>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="loadContentFrom('UpanayanaKaarika');return false;" class="sheershike">
+                        <img src="appimages/sandhya.png" alt="" />
+                        <h1 class="ghatta">ಉಪನಯನಕಾರಿಕ</h1>
+                    </a>
+                </li>
+
+            </ul>
+        </article>
+        <footer data-role="footer" data-position="fixed">
+            <nav data-role="navbar">
+            </nav>
+        </footer>
+    </div>
+    <!-- Page Photos -->
+
+</body>
+
+</html>
