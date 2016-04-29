@@ -10,13 +10,13 @@
 }
 
 .anukramanikeshershike {
-    font-family:GanapatiBold;
+    font-family: GanapatiBold;
     text-align: justify;
     font-size:200%;
 }
 
 .anukramanike {
-    font-family:GanapatiBold;
+    font-family: GanapatiBold;
     text-align: justify;
     font-size:200%;
 }
@@ -30,21 +30,21 @@
 
 .viniyoga {
     font-style: normal;
-    word-spacing: .25em;
+    word-spacing: .10em;
 }
 
 .purvanga {
     padding-bottom: 10px;
     font-style: italic;
-    word-spacing: .20em;
+    word-spacing: .10em;
 }
 
 .sheershike {
-    font-family:GanapatiBold;
+    font-family: GanapatiBold;
     text-align: center
 }
 
 .ghatta {
-    font-family:GanapatiBold;
+    font-family: GanapatiBold;
     text-align: justify
 }
