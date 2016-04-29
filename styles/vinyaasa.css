@@ -12,16 +12,11 @@
 #AnukramanikeShershike,#Anukramanike1{
     font-family: GanapatiBold;
     font-size:125%;
+    text-align: left;
 }
 
 div[data-role="page"] {
     background-color: #4a4848
-}
-
-.anukramanike {
-    font-family: GanapatiBold;
-    text-align: justify;
-    font-size:200%;
 }
 
 .vinyaasalipi {
