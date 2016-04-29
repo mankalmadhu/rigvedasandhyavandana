@@ -9,6 +9,18 @@
    font-weight: bold;
 }
 
+.anukramanikeshershike {
+    font-family:GanapatiBold;
+    text-align: justify;
+    font-size:200%;
+}
+
+.anukramanike {
+    font-family:GanapatiBold;
+    text-align: justify;
+    font-size:200%;
+}
+
 .vinyaasalipi {
     font-family: Ganapati;
     font-size: large;
@@ -18,11 +30,13 @@
 
 .viniyoga {
     font-style: normal;
+    word-spacing: .25em;
 }
 
 .purvanga {
     padding-bottom: 10px;
     font-style: italic;
+    word-spacing: .20em;
 }
 
 .sheershike {
