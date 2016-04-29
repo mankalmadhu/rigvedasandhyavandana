@@ -9,10 +9,13 @@
    font-weight: bold;
 }
 
-.anukramanikeshershike {
+#AnukramanikeShershike,#Anukramanike1{
     font-family: GanapatiBold;
-    text-align: justify;
-    font-size:200%;
+    font-size:125%;
+}
+
+div[data-role="page"] {
+    background-color: #4a4848
 }
 
 .anukramanike {
