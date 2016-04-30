@@ -29,19 +29,21 @@ div[data-role="page"] {
 
 .vinyaasalipi {
     font-family: Ganapati;
-    font-size:120%;
+    font-size:110%;
     text-align: justify;   
     line-height:1.8 
 }
 
 .viniyoga {
     font-style: normal;
+    font-size:110%;
     word-spacing: .10em;
 }
 
 .purvanga {
     padding-bottom: 10px;
     font-style: italic;
+    font-size:110%;
     word-spacing: .10em;
 }
 
