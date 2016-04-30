@@ -9,10 +9,18 @@
    font-weight: bold;
 }
 
-#AnukramanikeShershike,#Anukramanike1{
+.ui-header .ui-title {
+    margin-right: 10%;
+    margin-left: 10%;
     font-family: GanapatiBold;
     font-size:125%;
-    text-align: left;
+}
+
+.anukramanike {
+    margin-right: 10%;
+    margin-left: 10%;
+    font-family: GanapatiBold;
+    font-size:125%;
 }
 
 div[data-role="page"] {
